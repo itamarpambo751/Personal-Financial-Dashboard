@@ -1,0 +1,134 @@
+.is_dark:root {
+    --bodyColor: #fff;
+    --bodyBg: #0C0E2B;
+    --bodyBg1: #14173a;
+    --headingColor: #fff;
+    --blackColor: #fff;
+    --blackColor2: #fff;
+    --whiteColor: #0C0E2B;
+    --darkdeep2: #fff;
+    --darkblack: #fff;
+    --lightGrey: #0C0E2B;
+    --lightGrey7: #170F2F;
+    --lightGrey10: #170F2F;
+    --lightGrey11: #170F2F;
+    --contentColor: #fff;
+    --darkdeep5: #fff;
+    --borderColor: #312a57;
+    --whitegrey: #fff;
+    --whitegrey1: #312a57;
+    --whitegrey2: #312a57;
+    --whitegrey3: #292346;
+    --deepgray: #fff;
+    --borderColor2: #fff;
+    --darkdeep3: #17093e;
+    --contentColor2: #fff;
+    --deepgreen: #fff;
+    --bs-body-color: #fff;
+    --orange: #f37304;
+  }
+  :root {
+    --orange: #f37304;
+    --bodyColor: #222222;
+    --bodyBg: #fbfbfb;
+    --bodyBg1: #F7F7F7;
+    --whiteColor: #ffffff;
+    --whitegrey: #6A7C92;
+    --whitegrey1: #EDEDED;
+    --whitegrey2: #F2F6F7;
+    --whitegrey3: #E7DEFF;
+    --headingColor: #222222;
+    --contentColor: #5F6C76;
+    --contentColor2: #5C727D;
+    --facebookColor: #5d5dff;
+    --primaryColor: #5F2DED;
+    --primaryColorOpacity: #3911a580;
+    --secondaryColor: #F2277E;
+    --secondaryColor2: #FF275A;
+    --secondaryColor3: #FF2828;
+    --blackColor: #000000;
+    --blackColor2: #191B1E;
+    --darkblack: #0C0E2B;
+    --darkcolor: #263546;
+    --darkgray: #9FA2CE;
+    --deepgray: #202942;
+    --lightGrey: #7B8696;
+    --lightGrey2: #7B8697;
+    --lightGrey3: #7E858B;
+    --lightGrey4: #A2A9B6;
+    --lightGrey5: #F0F0F5;
+    --lightGrey8: #F0F1F3;
+    --lightGrey6: #6D6E75;
+    --lightGrey7: #F3F4FD;
+    --lightGrey9: #9F98B2;
+    --lightGrey10: #F5F5FE;
+    --lightGrey11: #F7F8FD;
+    --lightGrey12: #f0f4f7;
+    --greencolor: #44CEA9;
+    --greencolor2: #1EC902;
+    --greencolor3: #2EC14A;
+    --orange: #FE2323;
+    --borderColor: #eeeeee;
+    --borderColor1: #E5E5E5;
+    --borderColor2: #dddddd;
+    --borderColor3: #f8f8f8;
+    --borderColor4: #cacaca;
+    --darkdeep1: #170F2F;
+    --darkdeep2: #37404E;
+    --darkdeep3: #F4F4F8;
+    --darkdeep4: #949392;
+    --darkdeep5: #62605D;
+    --darkdeep6: #7E8285;
+    --darkdeep7: #C4C4C4;
+    --indigo: #B13BFF;
+  }
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+    list-style: none;
+    font-family: Poppins, sans-serif;
+    color: #fff;
+    transition: .2s ease-in-out;
+}
+body {
+    background: var(--bodyBg);
+}
+.app {
+    padding: 20px;
+}
+.app-drawer {
+    height: 95vh;
+    width: 90px;
+    padding: 10px 10px;
+    border-radius: 10rem;
+    background-color: var(--bodyBg1);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    box-shadow: 0 0 20px 10px rgba(95, 45, 237, 0.05);
+}
+.app-drawer-icon-logo {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--bodyBg);
+}
+.app-drawer-menu {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    gap: .7rem;
+}
+.app-drawer-menu li {
+    cursor: pointer;
+}
+.app-drawer-menu li:hover {
+    color: var(--orange);
+}
